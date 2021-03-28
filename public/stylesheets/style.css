@@ -16,26 +16,34 @@ article {
     background: #fff;
     border-radius: 5px;
     margin-bottom: 1rem;
-    padding: 2rem;
 }
-article.comment {
+.comment {
     background: #e6e6e6; 
-    padding: 2rem;
+    padding: 1.5rem;
     margin-bottom: 1rem;
+    border-radius: 5px;
 }
+.comment-body {margin-bottom: 1rem;}
+.add-comment {margin: 2rem 0;}
 .single-post-container {
     background: #fff;
     border-radius: 5px;
     padding: 40px;
 }
-.single-post-container article {
-    margin
+
+.post-container {
+    background: #fff;
+    border-radius: 5px;
+    padding: 2rem;
+    margin-bottom: 2rem;
 }
 .post-footer { color: #83879e;}
-.post-title {font-size: 20px;}
-.post-body {margin-top: 10px;}
+h2 {font-size: 20px;}
+.post-body {margin-top: 10px; margin-bottom: 1rem;}
+.post-list {list-style: none;}
 .icon {margin-right: 5px}
 .post-details { margin-bottom: 0;}
+.post-detail ul { margin-bottom: 0;}
 .post-details li { margin-right: 2rem !important;}
 a { 
     color: #55616d;
@@ -49,4 +57,9 @@ a {
 .login-container {
     background: #fff;
     padding: 2rem;
+}
+.empty {
+    background: #e6e6e6;
+    padding: 2rem;
+    border-radius: 5px;
 }
