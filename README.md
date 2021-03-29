@@ -32,6 +32,7 @@ users are able to create accounts, post, update previous post, delete post and c
 
 # Installation  
 Project Repository: [The Tech Blog](https://github.com/jmax407/tech-blog)  
+Clone repo listed above, install dependencies
 all dependencies call be install through npm: bcrypt, connect-session-sequelize, dotenv, express, express-handlebars, express-session, handlebars, mysql2, sequelize 
 
 # Usage
